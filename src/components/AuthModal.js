@@ -22,7 +22,7 @@ export function AuthModal(onSuccess) {
                 <input 
                     type="password" 
                     id="muapi-key-input"
-                    placeholder="sk-..." 
+                    placeholder="Enter your Muapi API key..."
                     class="w-full bg-black/40 border border-white/5 rounded-2xl px-5 py-4 text-white placeholder:text-muted focus:outline-none focus:border-primary/50 transition-colors shadow-inner"
                 >
             </div>
