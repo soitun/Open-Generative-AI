@@ -1,10 +1,10 @@
-# Open Generative AI — Open-Source Alternative to Higgsfield AI
+# Open Generative AI — Open-Source Alternative to Higgsfield AI, Freepik, Krea, Openart AI
 
-> **The free, open-source alternative to Higgsfield AI.** Generate AI images and videos using 200+ state-of-the-art models — without the closed ecosystem or subscription fees.
+> **The free, open-source alternative to Higgsfield AI, Freepik, Krea, Openart AI.** Generate AI images and videos using 200+ state-of-the-art models — without the closed ecosystem or subscription fees.
 
 ## 🌐 Try it Online — No Install Required
 
-**Hosted version:** [https://dev.muapi.ai/open-higgsfield-ai](https://dev.muapi.ai/open-higgsfield-ai)
+**Hosted version:** [https://dev.muapi.ai/open-generative-ai](https://dev.muapi.ai/open-generative-ai)
 
 Use all four studios (Image, Video, Lip Sync, Cinema) directly in your browser — no Node.js, no setup. Sign up for a free account to start generating. The hosted version is always up to date with the latest models.
 
@@ -56,9 +56,9 @@ The app will install silently to `%LocalAppData%` with a Start Menu shortcut.
 
 ---
 
-Open Generative AI is an open-source AI image, video, cinema, and lip sync studio that brings Higgsfield-style creative workflows to everyone. Powered by [Muapi.ai](https://muapi.ai), it supports text-to-image, image-to-image, text-to-video, image-to-video, and audio-driven lip sync generation across models like Flux, Nano Banana, Midjourney, Kling, Sora, Veo, Seedream, Infinite Talk, LTX Lipsync, Wan 2.2, and more — all from a sleek, modern interface you can self-host and customize.
+Open Generative AI is an open-source AI image, video, cinema, and lip sync studio that brings creative workflows to everyone. Powered by [Muapi.ai](https://muapi.ai), it supports text-to-image, image-to-image, text-to-video, image-to-video, and audio-driven lip sync generation across models like Flux, Nano Banana, Midjourney, Kling, Sora, Veo, Seedream, Infinite Talk, LTX Lipsync, Wan 2.2, and more — all from a sleek, modern interface you can self-host and customize.
 
-**Why Open Generative AI instead of Higgsfield AI?**
+**Why Open Generative AI instead of Higgsfield AI, Freepik, Krea AI, Openart AI?**
 - **Free & open-source** — no subscription, no vendor lock-in
 - **Self-hosted** — your data stays on your machine
 - **200+ models** — text-to-image, image-to-image, text-to-video, image-to-video, lip sync
@@ -66,7 +66,7 @@ Open Generative AI is an open-source AI image, video, cinema, and lip sync studi
 - **Lip Sync Studio** — animate portraits or sync lips to any audio with 9 dedicated models
 - **Extensible** — add your own models, modify the UI, build on top of it
 
-For a deep dive into the technical architecture and the philosophy behind the "Infinite Budget" cinema workflow, see our [comprehensive guide and roadmap](https://medium.com/@anilmatcha/building-open-higgsfield-ai-an-open-source-ai-cinema-studio-83c1e0a2a5f1).
+For a deep dive into the technical architecture and the philosophy behind the "Infinite Budget" cinema workflow, see our [comprehensive guide and roadmap](https://medium.com/@anilmatcha/).
 
 ![Studio Demo](docs/assets/studio_demo.webp)
 
@@ -76,7 +76,7 @@ For a deep dive into the technical architecture and the philosophy behind the "I
 - **Multi-Image Input** — Upload up to 14 reference images for compatible edit models (Nano Banana 2 Edit, Flux Kontext Dev, GPT-4o Edit, and more). Multi-select picker with order badges, batch upload, and a "Use Selected" confirmation flow.
 - **Video Studio** — Generate videos from text prompts (40+ text-to-video models) or animate a start-frame image (60+ image-to-video models). Same intelligent mode switching as Image Studio.
 - **Lip Sync Studio** — Animate portrait images or sync lips on existing videos using audio. 9 dedicated models across two modes: portrait image + audio → talking video, and video + audio → lipsync video.
-- **Cinema Studio** — Higgsfield AI-style interface for photorealistic cinematic shots with pro camera controls (Lens, Focal Length, Aperture)
+- **Cinema Studio** — Interface for photorealistic cinematic shots with pro camera controls (Lens, Focal Length, Aperture)
 - **Upload History** — Reference images are uploaded once and stored locally. A picker panel lets you reuse any previously uploaded image across sessions — no re-uploading.
 - **Smart Controls** — Dynamic aspect ratio, resolution/quality, and duration pickers that adapt to each model's capabilities (including t2i models with resolution or quality options)
 - **Generation History** — Browse, revisit, and download all past generations (persisted in browser storage)
@@ -318,17 +318,17 @@ Lip sync jobs use the same two-step pattern: a dedicated `processLipSync()` meth
 - **npm workspaces** — Monorepo with shared `packages/studio` library
 - **Muapi.ai** — AI model API gateway
 
-## 🤔 How is this different from Higgsfield AI?
+## 🤔 How is this different from Higgsfield AI, Freepik, Krea, Openart AI?
 
-Higgsfield AI is a proprietary AI video and image generation platform. **Open Generative AI** is a community-driven, open-source alternative that provides similar creative capabilities without the closed ecosystem:
+**Open Generative AI** is a community-driven, open-source alternative that provides similar creative capabilities without the closed ecosystem:
 
-| | Higgsfield AI | Open Generative AI |
+| | Other providers | Open Generative AI |
 | :--- | :--- | :--- |
 | **Cost** | Subscription-based | Free (open-source) |
 | **Models** | Proprietary | 200+ open & commercial models |
 | **Multi-image input** | Limited | Up to 14 images per request |
 | **Lip sync** | No | 9 models, image & video modes |
-| **Hosted version** | Subscription | Free at [muapi.ai/open-higgsfield-ai](https://muapi.ai/open-higgsfield-ai) |
+| **Hosted version** | Subscription | Free at [muapi.ai/open-generative-ai](https://muapi.ai/open-generative-ai) |
 | **Self-hosting** | No | Yes |
 | **Customizable** | No | Fully hackable |
 | **Data privacy** | Cloud-based | Your data stays local |
@@ -343,7 +343,7 @@ MIT
 Built with [Muapi.ai](https://muapi.ai) — the unified API for AI image and video generation models.
 
 ---
-**Deep Dive**: For more details on the "AI Influencer" engine, upcoming "Popcorn" storyboarding features, and the future of this project, read the [full technical overview](https://medium.com/@anilmatcha/building-open-higgsfield-ai-an-open-source-ai-cinema-studio-83c1e0a2a5f1).
+**Deep Dive**: For more details on the "AI Influencer" engine, upcoming "Popcorn" storyboarding features, and the future of this project, read the [full technical overview](https://medium.com/@anilmatcha/).
 
 ---
-*Looking for a free Higgsfield AI alternative? Open Generative AI is an open-source AI image and video generation studio and Higgsfield AI replacement that you can self-host, customize, and extend.*
+*Looking for a free Higgsfield AI, Freepik, Krea, Openart AI alternative? Open Generative AI is an open-source AI image and video generation studio and Higgsfield AI, Freepik, Krea, Openart AI replacement that you can self-host, customize, and extend.*
